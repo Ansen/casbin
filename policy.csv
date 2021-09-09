@@ -1,0 +1,12 @@
+p, admin, data, read
+p, admin, data, write
+p, admin, 1, game
+p, developer, data, read
+p, testGroup, data2, read
+p, testGroup, data3, read
+g, dajun, admin
+g, 1, admin
+g, 1, developer
+g, lizi, developer
+g, abc, admin
+g, an, admin
