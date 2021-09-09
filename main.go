@@ -54,8 +54,8 @@ func main() {
 
 	// 添加用户角色关系
 	userGroup := [][]string{
-		[]string{"an", "testGroup"},
-		[]string{"an", "admin"},
+		{"an", "testGroup"},
+		{"an", "admin"},
 	}
 
 	hasGroup, _ := e.GetImplicitRolesForUser("an")
@@ -78,8 +78,8 @@ func main() {
 
 	// 角色权限管理示例
 	groupPolicy := [][]string{
-		[]string{"testGroup", "data2", "read"},
-		[]string{"testGroup", "data3", "read"},
+		{"testGroup", "data2", "read"},
+		{"testGroup", "data3", "read"},
 	}
 
 	// 获取角色的所有权限
